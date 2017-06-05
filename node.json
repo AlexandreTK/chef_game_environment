@@ -1,0 +1,10 @@
+// This file says what recipes will be run
+// node -> represents a server that it needs to set up
+{
+	"run_list": ["recipe[main]"],
+
+	"user": {
+		"name": "gameuser",
+		"password": "$1$QNdlBW2R$G73Lo/TXZDAkuA8A.rDpY0"
+	}
+}
