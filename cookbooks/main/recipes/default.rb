@@ -1,14 +1,21 @@
 package 'git-core'
 package 'build-essential'
 package 'cmake'
+package 'make'
+package 'clang'
 
-package 'libsdl1.2-dev'
-package 'libsdl-image1.2-dev'
-package 'libsdl-ttf2.0-dev'
-package 'libsdl-net1.2-dev'
-package 'libsdl-mixer1.2-dev'
-package 'libsdl-gfx1.2-dev'
+package 'libsdl2-dev'
+package 'libsdl2-image-dev'
+package 'libsdl2-mixer-dev'
+package 'libsdl2-ttf-dev'
+package 'zlib1g-dev'
 
+# Pacotes adicionais usados pelo pacode .deb
+package 'libc6'
+package 'libgcc1'
+package 'libsdl2-2.0-0'
+package 'libsdl2-image-2.0-0'
+package 'libstdc++6'
 
 #password MD5 - teste123  -- openssl passwd -1 "<password>"
 user node[:user][:name] do
